@@ -7,12 +7,17 @@
 </head>
 <body>
 
-    {% include 'master/base.html' %}
+    {% extends 'master/base.html' %}
+
+    
+    {% block body %}
 
     <h2>
         Home page
     </h2>
-
+        
+    {% endblock body %}
+        
    
 </body>
 </html>
